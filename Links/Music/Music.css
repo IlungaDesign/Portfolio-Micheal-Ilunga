@@ -1,0 +1,883 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+{/*------------BANNER VIDEO PRT---------------------*/}
+.container-music {
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+}
+
+.dream-girl-background {
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(to right, #110031 , #2f013c,  #110031);
+}
+
+.dream-girl-background-video {
+    width: 100%;
+    height: auto;
+}
+
+.dream-girl-background-mobile {
+    display: none;
+}
+
+.link-to-DreamGirl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    width: 200px;
+    height:40px;
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 15px;
+    top:530px;
+    left:222px;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.link-to-DreamGirl:hover {
+    background-color: #c307c3;
+}
+
+{/*------------BIOGRAPHY---------------------*/}
+
+.My-biography{
+    width: 100%;
+    height: auto;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    object-fit: cover;
+    background-image: linear-gradient(to right, #110031 , #2f013c,  #110031);
+}
+
+
+.headline-text1{
+    font-family: Sora;
+    font-size: 40px;
+    font-weight: lighter;
+    color: #f771fa;
+    margin-bottom: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.My-biography p{
+    font-family: Sora;
+    font-size: 15px;
+    font-weight: lighter;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+    line-height: 1.8;
+}
+
+{/*-------------MUSIC--------------------*/}
+
+.music-section {
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+    background-color: #b5d6f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right,
+    #4f859d , #e4f3fc,  #4f859d);
+}
+
+.music-section-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 150px;
+}
+
+.headline-text2 {
+    font-family: Sora;
+    font-size: 40px;
+    font-weight: lighter;
+    color: #f771fa;
+    padding-bottom: 30px;
+    margin-top: 50px;
+}
+
+.music-section p {
+    color: #5f407a;
+    font-family: Poppins;
+    font-weight: lighter;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.image-disc-dream {
+    width:450px;
+    height:auto;
+    margin-bottom: 20px;
+}
+
+.streaming-button {
+    width: 200px;
+    text-decoration: none;
+}
+
+.button-music {
+    background-color: Transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 13px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.button-music:hover {
+    background-color: #c307c3;
+    border: 2px solid white;
+}
+
+
+{/*-------------DISCOGRAPHY----------------------------*/}
+
+.discography {
+    width: 100%;
+    height: auto;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.disc-discography {
+    width: 80%;
+    height: auto;
+    font-family: Poppins;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ed77ed;
+    gap: 40px;
+}
+
+.discography-info1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.discography-1stclass-1 {
+    width: 35%;
+    height: auto;
+    font-family: poppins;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.element-album1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    flex-wrap: wrap;
+    font-size: 15px;
+    border-bottom: 1px solid black;
+}
+
+.element-album1 h {
+    font-size: 15px;
+    font-family: Sora;
+    color: #2c013b;
+    font-weight: bold;
+}
+
+.element-album1 p {
+    font-size: 14px;
+    font-family: Sora;
+    color: black;
+    font-weight: normal;
+}
+
+.element-album1-buttons {
+    display: flex;
+    gap: 150px;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.element-album1-buttons a {
+    color: #c307c3;
+    font-weight: bold;
+    list-style-type: none;
+    font-weight: bold;
+}
+
+.element-album1-buttons a:hover {
+    color: #edaaee;
+}
+
+{/*-------------SHOP----------------------------*/}
+
+.section-shop {
+    width: 100%;
+    height: auto;
+    background-color: #110031;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.background-ilunga-elenore {
+    width: 900px;
+    height: 600px;
+    background-image: url("../../Images/listen_ilunga12.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+
+}
+
+.ilunga_elenore3 {
+    display:none
+}
+
+.ilunga_elenore4 {
+    display:none
+}
+
+.background-ilunga-elenore {
+    width: 900px;
+    height: 600px;
+    background-image: url("../../Images/listen_ilunga12.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.background-shop-dream {
+    background-color: #110031;
+    width: 600px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.headline-text-Shop {
+    font-family: Sora;
+    font-size: 40px;
+    font-weight: lighter;
+    color: #f771fa;
+    margin-bottom: 20px;
+    margin-left: 5%;
+}
+
+
+.text-shirt-dream1 {
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: Poppins;
+    color: white;
+    margin-bottom: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.websop-container-tshirt {
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #19759f ,
+    #9dbecf,  #19759f);
+}
+
+.image-tshirt-dream {
+    width: 90%;
+    height: 90%;
+}
+
+.background-shop-dream a {
+    color: #fd87fd;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 13px;
+}
+
+
+#button-music2 {
+    background-color: Transparent;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    padding: 13px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 90px;
+}
+
+#button-music2:hover {
+    background-color: #c307c3;
+    color: white;
+    border: 2px solid white;
+}
+
+{/*----------VIDEOCLIPS PRT-----------------------*/}
+
+.Videoclips-part {
+    width: 100%;
+    height: auto;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+.videos-ilunga {
+    width: 86%;
+    margin-left: 7%;
+    margin-right: 7%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+
+.small-videos-ilunga {
+    width: 436px;
+    height: 270px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.button-modal-miniature {
+    width: 436px;
+    height: 270px;
+    background-color: white;
+    transform: 0.1s ease-in-out;
+    transition-duration: 0.2s;
+    /*opacity: 0.4;*/
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-modal-miniature:hover {
+    /*transform: scale(1.2);*/
+    /*opacity: 1.5;*/
+    /*position: relative;*/
+}
+
+.miniature_-image-videos {
+    /*transform: scale(1);*/
+    transform: 0.1s ease-in-out;
+    transition-duration: 0.3s;
+    /*opacity: 0.5;*/
+    position: absolute;
+    overflow: hidden;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    transform: scale(1.01);
+}
+
+.miniature_-image-videos:hover {
+    transform: scale(1.2);
+    /*opacity: 0.9;*/
+}
+
+.button-modal-miniature i {
+    color: white;
+    font-size: 50px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    /*transform: 0.1s ease-in-out;*/
+    /*transition-timing-function: ease;*/
+    transition-duration: 0.3s;
+}
+
+.button-modal-miniature i:hover {
+    transform: scale(1.2);
+    opacity: 1.9;
+}
+
+
+.small-videos-ilunga h {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 220px;
+}
+
+{/*------------NEWS---------------------*/}
+
+.News {
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
+    border-top: 1px solid #c307c3;
+}
+
+.news-music {
+    width: 100%;
+    height: auto;
+    gap: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pic_studio_ilunga1 {
+    width: 48%;
+    height: auto;
+}
+
+.text_news_music {
+    width: 680px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text_news_paragraphe {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: lighter;
+    height: auto;
+    color: black;
+    margin-top: 20px;
+    line-height: 1.8;
+}
+
+.link_news_music {
+    padding: 10px;
+    color: white;
+    background-color: #c307c3;
+    border: 1px solid white;
+    text-decoration: none;
+    list-style-type: none;
+    width: 200px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.link_news_music:hover {
+    background-color: #2f013b;
+}
+
+/*-------CONTACT-------------*/
+
+.Contact {
+    width: 100%;
+    height: 80vh;
+    background-color: mediumvioletred;
+}
+
+/*-------------@MEDIA QUERY-----------------------------------------*/
+/*-------------@media query (max-width:1340px)----------------------*/
+
+@media screen and (max-width:1340px) {
+
+    .link-to-DreamGirl {
+        top:470px;
+        left:172px;
+    }
+
+    .music-section-2 {
+        gap: 50px;
+    }
+
+    .element-album1-buttons {
+        gap: 100px;
+    }
+
+    .section-shop {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .ilunga_elenore3 {
+        display:none
+    }
+
+    .ilunga_elenore3 {
+        display:block;
+    }
+
+    .background-ilunga-elenore {
+      display: none;
+    }
+
+    .background-shop-dream {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .background-shop-dream {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+}
+
+/*-------------@media query (max-width:1100px)----------------------*/
+
+@media screen and (max-width:1100px) {
+    .link-to-DreamGirl {
+        top:400px;
+        left:110px;
+    }
+
+    .discography {
+        width: 100%;
+        height: auto;
+        padding-bottom: 100px;
+    }
+
+    .disc-discography {
+        display: flex;
+        align-items: center;
+    }
+}
+
+/*-------------@media query (max-width:1100px)----------------------*/
+
+@media screen and (max-width:1040px) {
+    .link-to-DreamGirl {
+        top:400px;
+        left:110px;
+    }
+}
+
+/*-------------@media query (max-width:940px)----------------------*/
+
+@media screen and (max-width:940px) {
+    .link-to-DreamGirl {
+        top:370px;
+        left:95px;
+        border: 2px solid white;
+    }
+
+    .discography {
+        width: 100%;
+        height: auto;
+        padding-bottom: 100px;
+    }
+
+    .disc-discography {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .discography-1stclass-1 {
+        width: 59%;
+        height: auto;
+        font-family: poppins;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .element-album1-buttons {
+        display: flex;
+        justify-content: space-between;
+        gap: 0px;
+    }
+
+    .disc-discography {
+        gap: 50px;
+    }
+
+    .pic_studio_ilunga1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .text_news_music {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/*-------------@media query (max-width:768px)----------------------*/
+
+@media screen and (max-width:768px) {
+    .link-to-DreamGirl {
+       display: none;
+    }
+
+    .dream-girl-background-video {
+        display: none;
+    }
+
+    .dream-girl-background-mobile {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .headline-text1{
+        font-size: 30px;
+    }
+
+    .headline-text2 {
+        font-size: 30px;
+    }
+
+    .music-section p {
+        font-size: 20px;
+    }
+
+    .image-disc-dream {
+        width:370px;
+        height:auto;
+        margin-bottom: 0px;
+    }
+
+    .music-section {
+        background-image: linear-gradient(to right,
+        #c5dce7,  #4f859d);
+    }
+
+    .disc-discography {
+        gap: 50px;
+    }
+
+    .discography-1stclass-1 {
+        width: 100%;
+    }
+
+    .ilunga_elenore4 {
+        display:block;
+        width: 100%;
+        height: auto;
+        padding: 0px;
+    }
+
+    .ilunga_elenore3 {
+        display: none;
+    }
+
+    .background-ilunga-elenore {
+        display: none;
+    }
+
+    .background-shop-dream {
+        width: 100%;
+    }
+
+    .background-shop-dream {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    .pic_studio_ilunga1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .text_news_music {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/*-------------@media query (max-width:480px)----------------------*/
+
+@media screen and (max-width:480px) {
+
+    .link-to-DreamGirl {
+        display: none;
+    }
+
+    .dream-girl-background-video {
+        display: none;
+    }
+
+    .dream-girl-background-mobile {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .headline-text1{
+        font-size: 30px;
+    }
+
+    .headline-text2 {
+        font-size: 30px;
+    }
+
+    .music-section {
+        width: 100%;
+        height: auto;
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient(to right, #c5dce7,  #4f859d);
+    }
+
+    .music-section p {
+        font-size: 20px;
+    }
+
+    .image-disc-dream {
+        width:300px;
+        height:auto;
+        margin-bottom: 0px;
+    }
+
+    .link-to-DreamGirl {
+        top:370px;
+        left:95px;
+        border: 2px solid white;
+
+    }
+
+    .discography {
+        width: 100%;
+        height: auto;
+        padding-bottom: 100px;
+    }
+
+    .disc-discography {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        padding-bottom: 15px;
+    }
+
+
+    .discography-1stclass-1 {
+        width: 100%;
+        height: auto;
+        font-family: poppins;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .element-album1 h {
+        font-size: 13px;
+    }
+
+    .element-album1 p {
+        font-size: 12px;
+        font-family: Sora;
+        color: black;
+        font-weight: normal;
+    }
+
+    .element-album1-buttons a {
+        color: #c307c3;
+        font-weight: bold;
+        list-style-type: none;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .ilunga_elenore4 {
+        display:block;
+        width: 100%;
+        height: auto;
+        padding: 0px;
+
+    }
+
+    .ilunga_elenore3 {
+        display: none;
+    }
+
+    .background-ilunga-elenore {
+        display: none;
+    }
+
+    .background-shop-dream {
+        width: 100%;
+    }
+
+    .background-shop-dream {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    .pic_studio_ilunga1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .text_news_music {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+
+/*-----------------------------------------------------------*/
+
+
+
+

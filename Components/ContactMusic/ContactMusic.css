@@ -1,0 +1,597 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.section-contact-music {
+    background-color: #110031;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Cross-icon-contact {
+    color: white;
+    margin-top: 30px;
+    margin-left: 1480px;
+}
+
+.headline-text-music {
+    font-family: Sora;
+    font-size: 40px;
+    font-weight: lighter;
+    color: #f771fa;
+}
+
+.section-contact-music h1 {
+    margin-bottom: 30px;
+}
+
+.section-contact-music p {
+    align-items: center;
+    width: 550px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-contact-music div form {
+    display: flex;
+    flex-wrap:wrap;
+    flex-shrink: 0;
+    gap: 30px;
+}
+
+.container-form-music {
+    width: 70%;
+    height: auto;
+    padding-bottom: 100px;
+}
+
+.section-contact-music form input {
+    width: 300px;
+}
+
+.section-contact-music form textarea {
+    width: 600px;
+    text-indent: 20px;
+}
+
+.contact-form-text {
+    font-family: Poppins;
+    height: 60px;
+    border: 2px solid white;
+    color: white;
+    background: transparent;
+    text-indent: 20px;
+    font-size: 16px;
+}
+
+#x-name {
+    width: 48%;
+}
+
+.error-message {
+    color: yellow;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#subject-id {
+    width:98%;
+    background-color: #11b61d;
+}
+
+::placeholder {
+    color: white;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.contact-form-textarea::placeholder {
+    font-size: 18px;
+}
+
+#subject-id {
+    width: 100%;
+    height: 20vh;
+    border: 2px solid white;
+    color: white;
+    background: transparent;
+    padding-top: 20px;
+}
+
+.button-send-contact {
+    margin-left: 887px;
+    background-color: #c307c3;
+    width: 450px;
+    font-size: 15px;
+    color: white;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border: 0px solid;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.button-send-contact:hover {
+    background-color: white;
+    color: #c307c3;
+}
+
+/*--------@MEDIA QUERY---------------------------------*/
+
+@media screen and (max-width:1340px) {
+
+    .button-send-contact {
+        margin-left: 10px;
+        background-color: #c307c3;
+        width: 450px;
+        font-size: 15px;
+        color: white;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        border: 0px solid;
+        font-weight: bold;
+        letter-spacing: 3px;
+    }
+
+    .section-contact-music {
+        background-color: #110031;
+        width: 100%;
+        height: auto;
+        padding-bottom: 500px;
+    }
+
+    .Cross-icon-contact {
+        margin-top: 30px;
+        margin-left: 300px;
+    }
+
+    .headline-text-music {
+        font-size: 30px;
+    }
+
+    .section-contact-music p {
+        width: auto;
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: 15px;
+    }
+
+    .container-form-music {
+        width: 80%;
+    }
+
+    .contact-form-text {
+        font-family: Poppins;
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    ::placeholder {
+        font-size: 14px;
+        margin-left: 0px;
+    }
+
+    .button-send-contact {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 14px;
+    }
+
+    .button-send-contact:hover {
+        background-color: white;
+        color: #c307c3;
+    }
+
+    #x-name {
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        font-size: 14px;
+    }
+
+    #subject-id {
+        width:100%;
+        font-size: 14px;
+    }
+
+    .section-contact-music form input {
+        width: 100%;
+    }
+
+    .contact-form-textarea::placeholder {
+        font-size: 14px;
+    }
+}
+
+/*-----------------------------------------*/
+
+@media screen and (max-width:1140px) {
+
+    .section-contact-music {
+        background-color: #110031;
+        width: 100%;
+        height: auto;
+        padding-bottom: 500px;
+    }
+
+    .Cross-icon-contact {
+        margin-top: 30px;
+        margin-left: 300px;
+    }
+
+    .headline-text-music {
+        font-size: 30px;
+    }
+
+    .section-contact-music p {
+        width: auto;
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: 15px;
+    }
+
+    .container-form-music {
+        width: 80%;
+    }
+
+    .contact-form-text {
+        font-family: Poppins;
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    ::placeholder {
+        font-size: 14px;
+        margin-left: 0px;
+    }
+
+    .button-send-contact {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 14px;
+    }
+
+    .button-send-contact:hover {
+        background-color: white;
+        color: #c307c3;
+    }
+
+    #x-name {
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        font-size: 14px;
+    }
+
+    #subject-id {
+        width:100%;
+        font-size: 14px;
+    }
+
+    .section-contact-music form input {
+        width: 100%;
+    }
+
+    .contact-form-textarea::placeholder {
+        font-size: 14px;
+    }
+}
+
+/*-----------------------------------------*/
+
+@media screen and (max-width:1040px) {
+
+    .section-contact-music {
+        background-color: #110031;
+        width: 100%;
+        height: auto;
+        padding-bottom: 500px;
+    }
+
+    .Cross-icon-contact {
+        margin-top: 30px;
+        margin-left: 300px;
+    }
+
+    .headline-text-music {
+        font-size: 30px;
+    }
+
+    .section-contact-music p {
+        width: auto;
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: 15px;
+    }
+
+    .container-form-music {
+        width: 80%;
+    }
+
+    .contact-form-text {
+        font-family: Poppins;
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    ::placeholder {
+        font-size: 14px;
+        margin-left: 0px;
+    }
+
+    .button-send-contact {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 14px;
+    }
+
+    .button-send-contact:hover {
+        background-color: white;
+        color: #c307c3;
+    }
+
+    #x-name {
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        font-size: 14px;
+    }
+
+    #subject-id {
+        width:100%;
+        font-size: 14px;
+    }
+
+    .section-contact-music form input {
+        width: 100%;
+    }
+
+    .contact-form-textarea::placeholder {
+        font-size: 14px;
+    }
+
+}
+
+/*-----------------------------------------*/
+
+@media screen and (max-width:940px) {
+
+    .section-contact-music {
+        background-color: #110031;
+        width: 100%;
+        height: auto;
+        padding-bottom: 500px;
+    }
+
+    .Cross-icon-contact {
+        margin-top: 30px;
+        margin-left: 300px;
+    }
+
+    .headline-text-music {
+        font-size: 30px;
+    }
+
+    .section-contact-music p {
+        width: auto;
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: 15px;
+    }
+
+    .container-form-music {
+        width: 80%;
+    }
+
+
+    .contact-form-text {
+        font-family: Poppins;
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+
+    ::placeholder {
+        font-size: 14px;
+        margin-left: 0px;
+    }
+
+    .button-send-contact {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 14px;
+    }
+
+    .button-send-contact:hover {
+        background-color: white;
+        color: #c307c3;
+    }
+
+    #x-name {
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        font-size: 14px;
+    }
+
+    #subject-id {
+        width:100%;
+        font-size: 14px;
+    }
+
+    .section-contact-music form input {
+        width: 100%;
+    }
+
+    .contact-form-textarea::placeholder {
+        font-size: 14px;
+    }
+}
+
+/*-----------------------------------------*/
+
+@media screen and (max-width:768px) {
+
+    .section-contact-music {
+        background-color: #110031;
+        width: 100%;
+        height: auto;
+        padding-bottom: 500px;
+    }
+
+    .Cross-icon-contact {
+        margin-top: 30px;
+        margin-left: 300px;
+    }
+
+    .headline-text-music {
+        font-size: 30px;
+    }
+
+    .section-contact-music p {
+        width: auto;
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: 15px;
+    }
+
+    .container-form-music {
+        width: 80%;
+    }
+
+    .contact-form-text {
+        font-family: Poppins;
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    ::placeholder {
+        font-size: 14px;
+        margin-left: 0px;
+    }
+
+    .button-send-contact {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 14px;
+    }
+
+    .button-send-contact:hover {
+        background-color: white;
+        color: #c307c3;
+    }
+
+    #x-name {
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        font-size: 14px;
+    }
+
+    #subject-id {
+        width:100%;
+        font-size: 14px;
+    }
+
+    .section-contact-music form input {
+        width: 100%;
+    }
+
+    .contact-form-textarea::placeholder {
+        font-size: 14px;
+    }
+}
+
+/*-----------------------------------------*/
+
+@media screen and (max-width:480px) {
+
+
+    .section-contact-music {
+        background-color: #110031;
+        width: 100%;
+        height: auto;
+        padding-bottom: 500px;
+    }
+
+    .Cross-icon-contact {
+        margin-top: 30px;
+        margin-left: 300px;
+    }
+
+    .headline-text-music {
+        font-size: 30px;
+    }
+
+    .section-contact-music p {
+        width: auto;
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: 15px;
+    }
+
+    .container-form-music {
+        width: 80%;
+    }
+
+    .contact-form-text {
+        font-family: Poppins;
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    ::placeholder {
+        font-size: 14px;
+        margin-left: 0px;
+    }
+
+    .button-send-contact {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 14px;
+    }
+
+    .button-send-contact:hover {
+        background-color: white;
+        color: #c307c3;
+    }
+
+    #x-name {
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        font-size: 14px;
+    }
+
+    #subject-id {
+        width:100%;
+        font-size: 14px;
+    }
+
+    .section-contact-music form input {
+        width: 100%;
+    }
+
+    .contact-form-textarea::placeholder {
+        font-size: 14px;
+    }
+
+}
+
+
+
+

@@ -1,0 +1,185 @@
+
+.mike_hireMe_pic1 {
+    height: 310px;
+    width: 100%;
+}
+
+.icon_social_media_hireMe {
+    font-size: 35px;
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: #3f97fb;
+    margin-top: 50px;
+}
+
+.icon-social-hover {
+    color: #3f97fb;
+}
+
+.icon-social-hover:hover {
+    color: #76b4fb;
+}
+
+.hire-me-element2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#title-hireMe {
+    font-size: 35px;
+    margin-bottom: 30px;
+    font-weight: normal;
+    font-family: Sora;
+    color: #0b3f88;
+}
+
+#paragraphe-hireMe {
+    font-size: 18px;
+    font-weight: normal;
+    color: #0b3f88;
+    font-family: Poppins;
+    width: 470px;
+    margin-bottom: 50px;
+}
+
+.email-HireMe {
+    color: #3f97fb;
+    text-decoration: none;
+}
+
+#whatsapp-number-hireMe {
+    padding: 10px;
+    background-color: #11b61d;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    width: 180px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-family: Poppins;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-left: 150px;
+}
+
+#whatsapp-number-hireMe:hover {
+    background-color: #017408;
+
+}
+
+/*-----------div-hire-me------------------------*/
+
+.div-hire-me {
+    width: 100%;
+    /*height: 80vh;*/
+    height: auto;
+    background-color: #f6fafe;
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.testA {
+    width: 500px;
+    height: 500px;
+}
+
+.testB {
+    width: 500px;
+    height: 300px;
+    padding-left: 50px;
+}
+
+
+/*-----------@MEDIA QUERY------------------------------*/
+
+@media screen and (max-width:1040px) {
+
+    .div-hire-me {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+
+    #title-hireMe {
+        font-size: 25px;
+        font-weight: normal;
+        font-family: Sora;
+        color: #0b3f88;
+    }
+
+    .mike_hireMe_pic1 {
+        height: 220px;
+        width: 90%;
+    }
+
+    #whatsapp-number-hireMe {
+        background-color: #11b61d;
+        margin-left: 0px;
+    }
+
+    .testB {
+        width: 345px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+        padding-top: 30px;
+        align-items: center;
+    }
+
+    .testA {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icon_social_media_hireMe {
+        font-size: 20px;
+        gap: 15px;
+        margin-top: 30px;
+    }
+
+    #paragraphe-hireMe {
+        font-size: 13px;
+        width: 300px;
+    }
+
+    #whatsapp-number-hireMe {
+        padding: 7px;
+        font-size: 14px;
+    }
+
+}
+
+/*--------------@MEDIA QUERY--------------------*/
+
+@media screen and (max-width:940px) {
+
+
+}
+
+/*-----------------------------------------*/
+
+@media screen and (max-width:480px) {
+
+
+}
+
+

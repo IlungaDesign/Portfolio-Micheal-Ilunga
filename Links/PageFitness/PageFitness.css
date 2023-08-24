@@ -1,0 +1,516 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+{/*----------PRT FITNESSFRIEND INTRO-----------*/}
+
+.Container-fitness2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /*flex-grow: 1;*/
+}
+
+.title-PagePixam2 {
+    font-weight:bold;
+    font-family: Sora;
+    font-size: 60px;
+    color: #3f97fb;
+    margin-top: 140px;
+    margin-left: 250px;
+    padding-bottom: 20px;
+}
+
+.container-image-fitness {
+    width: 70%;
+    height: 60vh;
+    border-radius: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-image: linear-gradient(to right, #0075c2 , #4ab6fd);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+
+.container-image-fitness h1 {
+    font-size: 50px;
+    font-family: Spantaran;
+    color: white;
+}
+
+a {
+    font-family: Sora;
+}
+
+{/*----------IDEA PHASE-----------*/}
+
+.container-ideaPase-fitness {
+    background-color: #0075c1;
+    width: 40%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_fitness_assigment1 {
+    width: 30%;
+    height: auto;
+}
+
+.image_fitness_assigment1 {
+    width: 35%;
+    height: auto;
+}
+
+{/*----------PLAN OF ACTION-----------*/}
+
+.part-plan-of-action {
+    width: 100%;
+    height: auto;
+    background-color: #e3effb;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.paragraphe-fitness3 {
+    font-size: 18px;
+    font-family: Poppins;
+    width: 850px;
+    margin-left: 100px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.container-content-planOfAaction {
+    width: 70%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    padding-top: 100px;
+}
+
+.container-title-planOfAaction {
+    width: 30%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-fitness-hand {
+    width: 100%;
+}
+
+.paragraphe-Pagefitness {
+    font-weight:normal;
+    font-family: Poppins;
+    font-size: 18px;
+    width: 75%;
+    gap: 10px;
+    display: flex;
+}
+
+#paragraphe-problem-position2 {
+    margin-left: 100px;
+    margin-right: 250px;
+}
+
+{/*----------METHODE USED-----------*/}
+
+.part-methode-fitness {
+    width: 100%;
+    height: auto;
+    background-color: #f6fafe;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.container-content-methods {
+    width: 85%;
+    height: auto;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    flex-wrap: wrap;
+}
+
+.paragraphe-content-methods {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.methode-techniques-fitness {
+    color: #0b3f88 ;
+    font-size: 30px;
+    font-family: Sora;
+    font-weight: normal;
+    margin-top: 100px;
+}
+
+.title-methods-techniques {
+    color: #0b3f88;
+    font-size: 20px;
+    font-family: Sora;
+    font-weight: bold;
+}
+
+.paragraphe-methods-techniques {
+    color: black;
+    font-family: Poppins;
+    margin-top: 20px;
+    width: 350px;
+    margin-left: 40px;
+}
+
+{/*----------TECHNIQUES USED-----------*/}
+
+.part-techniques-fitness {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.paragraphe-content-techniques {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.part-visual-design {
+    padding-bottom: 100px;
+}
+
+.image_fitness_text-compile {
+    width:70%;
+    margin-top:60px;
+}
+
+/*.image-trois-phones {*/
+/*}*/
+
+{/*----------RESULT-----------*/}
+
+.part-result-fitness {
+    width: 100%;
+    height: auto;
+}
+
+.container-result1-fitness {
+    height: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, #88cdfc , #49b3fb);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.image_startpagina_pixam_desktop {
+    width: 70%;
+    margin-top: 100px;
+}
+
+.image_afbeelding_detail_pixam {
+    width: 70%;
+    margin-top: 70px;
+}
+
+.image_afbeelding_desktop_pixam {
+    width: 70%;
+    margin-top: 100px;
+}
+
+.image_contact_login_desktop {
+    width: 70%;
+    margin-top: 100px;
+}
+
+.container-result3-pixam {
+    width: 70%;
+    height: 535vh;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 30px;
+    background-image: linear-gradient(to right,
+    #807a80 , #3b373c);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.image_startpagina_pixam_desktop2 {
+    width: 90%;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+{/*----------OPTION FITNESSFIREND/PIXAM-----------*/}
+
+.container-option-pixam {
+    background-color: #f6fafe;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 100px;
+    gap: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.container-fitness-Pagepixam11 {
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(to right, #3d393e , #7d777d);
+    border-Top-left-radius: 15px;
+    border-Top-right-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-fitness-Pagepixam22 {
+    background-color: #7d777d;
+    width: 100%;
+    height: 30vh;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-decoration: none;
+}
+
+.button-project-fitness22 {
+    padding: 13px;
+    width: 160px;
+    color: white;
+    background-color: #3d393e;
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-weight: bold;
+    border: none;
+    font-family: Poppins;
+    font-size: 15px;
+}
+
+.button-project-fitness22:hover {
+    background-color: #9e989e;
+}
+
+/*-------------@MEDIA QUERY-----------------------------------------*/
+/*-------------@media query (max-width:1340px)----------------------*/
+
+@media screen and (max-width:1340px) {
+
+
+    .part-plan-of-action {
+        width: 100%;
+        height: auto;
+        background-color: #e3effb;
+        display: flex;
+    }
+
+    .container-content-planOfAaction {
+        width: 100%;
+        padding-bottom: 60px;
+    }
+
+    .container-title-planOfAaction {
+        display: none;
+    }
+
+}
+
+/*-------------@media query (max-width:1040px)----------------------*/
+
+
+@media screen and (max-width:1040px) {
+
+    .container-image-fitness {
+        width: 70%;
+        height: auto;
+        border-radius: 20px;
+        margin-left: 15%;
+        margin-right: 15%;
+        background-image: linear-gradient(to right, #0075c2 , #4ab6fd);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 90px;
+        padding: 30px;
+    }
+
+    .paragraphe-fitness3 {
+        font-size: 15px;
+        width: 750px;
+        padding-right: 30px;
+    }
+
+}
+
+/*-------------@media query (max-width:940px)----------------------*/
+
+@media screen and (max-width:940px) {
+
+    .container-ideaPase-fitness {
+        width: 100%;
+        padding-bottom: 20vh;
+        padding-top: 20vh;
+    }
+
+    .paragraphe-fitness3 {
+        font-size: 15px;
+    }
+
+    .paragraphe-fitness3 {
+        font-size: 15px;
+        width: 650px;
+        padding-right: 30px;
+    }
+
+    .image-trois-phones {
+        display: none;
+    }
+}
+
+/*-------------@media query (max-width:768px)----------------------*/
+
+@media screen and (max-width:768px) {
+
+    .paragraphe-fitness3 {
+        font-size: 15px;
+        width: 400px;
+        margin-left: 30px;
+        padding-right: 30px;
+    }
+
+    .image-trois-phones {
+        display: none;
+    }
+
+    .container-result1-fitness {
+        width: 90%;
+        height: auto;
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 0px;
+    }
+
+}
+
+/*-------------@media query (max-width:480px)----------------------*/
+
+@media screen and (max-width:480px) {
+
+    .container-image-fitness {
+        width: 100%;
+        height: auto;
+        border-radius: 0px;
+        margin-left: 0%;
+        margin-right: 0%;
+        background-image: linear-gradient(to right, #0075c2 , #4ab6fd);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+        padding: 30px;
+    }
+
+    .container-ideaPase-fitness {
+        width: 100%;
+        padding-bottom: 20vh;
+        padding-top: 20vh;
+    }
+
+    .paragraphe-fitness3 {
+        font-size: 14px;
+        width: 320px;
+        margin-left: 0px;
+        padding-right: 30px;
+    }
+
+    .container-content-methods {
+        width: 100%;
+        height: auto;
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+        gap: 70px;
+        flex-wrap: wrap;
+    }
+
+    .paragraphe-content-methods {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .methode-techniques-fitness {
+        color: #0b3f88 ;
+        font-size: 30px;
+        font-family: Sora;
+        font-weight: normal;
+        margin-top: 100px;
+    }
+
+    .title-methods-techniques {
+        color: #0b3f88;
+        font-size: 20px;
+        font-family: Sora;
+        font-weight: bold;
+    }
+
+    .paragraphe-methods-techniques {
+        color: black;
+        font-family: Poppins;
+        margin-top: 20px;
+        width: 300px;
+        margin-right: 30%;
+        font-size: 14px;
+    }
+
+    .image-trois-phones {
+        display: none;
+    }
+
+    .container-color-scheme {
+        padding-bottom: 100px;
+    }
+
+    .image_fitness_text-compile {
+        width:100%;
+        margin-top:0px;
+    }
+
+    .container-result1-fitness {
+        width: 100%;
+        height: auto;
+        margin-left: 0%;
+        margin-right: 0%;
+        border-radius: 0px;
+    }
+
+}
+
+
+

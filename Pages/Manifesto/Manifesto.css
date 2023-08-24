@@ -1,0 +1,126 @@
+.section-manifesto {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.list-manifesto {
+    width: 30%;
+    height: 20vh;
+}
+
+.paragraphe-manifesto {
+    font-family: Poppins;
+    font-size: 17px;
+    color: #0b3f88;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#title-section-manifesto {
+    font-family: Sora;
+    font-size: 35px;
+    font-weight: normal;
+    color: #0b3f88;
+    margin-left: 280px;
+    margin-top: 50px;
+    margin-bottom: 45px;
+}
+
+.item-manifesto {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.item-manifesto h1 {
+    font-family: Poppins;
+    font-size: 23px;
+    color: #0b3f88;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.item-manifesto {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.image-icon {
+    width: 60%;
+    margin-left: 62px;
+    margin-bottom: 20px;
+}
+
+/*--------------------------------------------*/
+
+.element-manifesto2 {
+    width: 100%;
+    height: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.test1 {
+    height: auto;
+    width: 300px;
+}
+
+.test2 {
+    height: auto;
+    width: 300px;
+}
+
+.test3 {
+    height: auto;
+    width: 300px;
+}
+
+
+/*-------@MEDIA QUERY----------------------------------*/
+
+@media screen and (max-width:1040px) {
+
+    #title-section-manifesto {
+        margin-left: 80px;
+    }
+
+}
+
+/*-----------------------------------------*/
+
+@media screen and (max-width:940px) {
+
+    .section-manifesto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #title-section-manifesto {
+        margin-left: 0px;
+    }
+}
+
+/*-----------------------------------------*/
+
+@media screen and (max-width:480px) {
+
+    .section-manifesto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #title-section-manifesto {
+        margin-left: 0px;
+    }
+
+}
+

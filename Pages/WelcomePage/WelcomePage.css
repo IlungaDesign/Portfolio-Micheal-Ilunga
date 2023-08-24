@@ -1,0 +1,332 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+
+}
+.container-welcome {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.container-welcome-2 {
+    height: auto;
+    padding-bottom: 50px;
+    padding-top: 100px;
+    gap: 100px;
+    background-color: #f6faff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.container-welcome-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    margin-right: 0px;
+}
+
+#welcome-title {
+    color: #3f97fb;
+    font-family:"Sora";
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+#welcome-title2 {
+    display: none;
+}
+
+#welcome-text {
+    font-family: "Poppins";
+    font-size: 18px;
+    margin-left: 20px;
+    color: #0b3f88;
+}
+
+.mike_welcome_pic1 {
+    width: 420px;
+    height: 420px;
+}
+
+#welcome-let-talk {
+    text-decoration: none;
+    width: 85px;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 20px;
+    color: white;
+    background-color: #11b61d;
+    padding: 8px 40px 8px 40px;
+    border-radius: 40px;
+    font-size: 17px;
+    font-family: Poppins;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+#welcome-let-talk:hover {
+    background-color: #03930b;
+}
+
+
+/*-------------@media query (max-width:1100px)----------------------*/
+
+@media screen and (max-width:1340px) {
+
+    .container-welcome-2 {
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width:1040px) {
+
+    .container-welcome {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-grow: 1;
+    }
+
+    #welcome-title {
+        font-size: 30px;
+    }
+
+    #welcome-text {
+        font-family: "Poppins";
+        font-size: 18px;
+        margin-left: 20px;
+        color: #0b3f88;
+    }
+
+    .container-welcome-2 {
+        width: auto;
+        height: 60vh;
+        gap: 90px;
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-welcome-3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+        height: 40vh;
+        margin-top: 100px;
+    }
+
+    .mike_welcome_pic1 {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+
+/*---------------------------------*/
+
+@media screen and (max-width:940px) {
+    .container-welcome {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-grow: 1;
+        padding-bottom: 50px;
+    }
+
+    #welcome-title {
+        font-size: 30px;
+    }
+
+    #welcome-text {
+        font-family: "Poppins";
+        font-size: 16px;
+        margin-left: 20px;
+        color: #0b3f88;
+    }
+
+    .container-welcome-2 {
+        width: auto;
+        height: 60vh;
+        gap: 30px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-welcome-3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 50vh;
+    }
+
+    .mike_welcome_pic1 {
+        width: 300px;
+        height: 300px;
+    }
+
+    #welcome-let-talk {
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .container-welcome {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-grow: 1;
+    }
+
+    #welcome-title {
+        display: none;
+    }
+
+    #welcome-title2 {
+        display:inline;
+        font-size: 30px;
+        color: #3f97fb;
+        font-family:"Sora";
+        font-weight: bold;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    #welcome-text {
+        font-family: "Poppins";
+        font-size: 16px;
+        margin-left: 20px;
+        color: #0b3f88;
+    }
+
+    .container-welcome-2 {
+        width: auto;
+        height: 90vh;
+        gap: 0px;
+        padding-top: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .container-welcome-3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 90%;
+        height: 35vh;
+        padding-bottom: 50px;
+    }
+
+    .mike_welcome_pic1 {
+        width: 300px;
+        height: 300px;
+        margin-bottom: 80px;
+    }
+
+    #welcome-let-talk {
+        margin-bottom: 0px;
+    }
+}
+
+/*---------------------------------*/
+
+@media screen and (max-width:480px) {
+    .container-welcome {
+        width: 100%;
+        height: 95vh;
+        display: flex;
+        flex-grow: 1;
+    }
+
+    #welcome-title {
+        display: none;
+    }
+
+    #welcome-title2 {
+        display:inline;
+        font-size: 25px;
+        color: #3f97fb;
+        font-family:"Sora";
+        font-weight: bold;
+        margin-left: 5px;
+    }
+
+    #welcome-text {
+        font-family: "Poppins";
+        font-size: 14px;
+        margin-left: 5px;
+        color: #0b3f88;
+    }
+
+    .container-welcome-2 {
+        width: 100%;
+        height: 100vh;
+        gap: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .container-welcome-3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 85%;
+        height: 40vh;
+    }
+
+    .mike_welcome_pic1 {
+        width: 250px;
+        height: 250px;
+        margin-bottom: 0px;
+    }
+
+    #welcome-let-talk {
+        text-decoration: none;
+        width: 200px;
+        height: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+        background-color: #11b61d;
+        padding: 8px 40px 8px 40px;
+        border-radius: 40px;
+        font-size: 18px;
+        font-family: Poppins;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+    }
+
+}
+
+
+
+

@@ -1,0 +1,602 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+.Pixam-section {
+    width: 100%;
+    height: 90vh;
+}
+
+#fitness-section {
+    width: 100%;
+    height: 75vh;
+}
+
+.Pixam-section h1 {
+        font-family: Sora;
+        font-size: 35px;
+        font-weight: normal;
+        color: #0b3f88;
+        margin-left: 277px;
+        margin-bottom: 50px;
+        padding-top: 50px;
+}
+
+.Pixam-element {
+    width: 67%;
+    height: 470px;
+    margin-left: 17%;
+    margin-right: 17%;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(1);
+    transition-duration: 0.1s;
+    overflow: hidden;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.Pixam-element:hover {
+    opacity: 0.9;
+}
+
+.container-info-Pixam {
+    background-color: #59545a;
+    width: 445px;
+    height: auto;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    /*background-image: linear-gradient(to left, #59545a , #3b373c);*/
+}
+
+.container-image-Pixam {
+    width: 555px;
+    height: auto;
+    padding-top: 50px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-image: linear-gradient(to right, #59545a , #3b373c);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-info-Pixam h {
+    font-family: Sora;
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    margin-top: 130px;
+}
+
+.container-info-Pixam p {
+    font-family: Poppins;
+    font-size: 16px;
+    color: white;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+.button-info-pixam {
+    font-family: Poppins;
+    font-size: 16px;
+    color: white;
+    margin-left: 130px;
+    background-color:#1e1c1f;
+    padding: 16px;
+    border-radius: 30px;
+    width: 140px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.button-info-pixam:hover {
+    background-color: #807a80;
+    /*opacity: 0.6;*/
+}
+
+.container-info-Pixam2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-pixam1 {
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+
+/*-------------@MEDIA QUERY-----------------------------------------*/
+
+@media screen and (max-width:1040px) {
+
+    .Pixam-section h1 {
+        font-family: Sora;
+        font-size: 35px;
+        font-weight: normal;
+        color: #0b3f88;
+        margin-left: 79px;
+        margin-bottom: 50px;
+        padding-top: 50px;
+
+    }
+
+    .container-info-Pixam {
+        background-color: #59545a;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 445px;
+        height: auto;
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+
+    .container-image-Pixam {
+        width: 555px;
+        height: auto;
+        padding-top: 0px;
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    .container-info-Pixam h {
+        font-family: Sora;
+        font-size: 30px;
+        font-weight: bolder;
+        color: white;
+        margin-left: 40px;
+        padding-top: 0px;
+        margin-top: 0px;
+        padding-bottom: 0px;
+        margin-bottom: 20px;
+    }
+
+    .container-info-Pixam p {
+        font-family: Poppins;
+        font-size: 16px;
+        color: white;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 30px;
+    }
+
+    .button-info-pixam {
+        font-family: Poppins;
+        font-size: 16px;
+        color: white;
+        margin-left: 80px;
+        margin-right: 80px;
+        background-color:#1e1c1f;
+        padding: 16px;
+        border-radius: 30px;
+        width: 140px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    .container-info-Pixam2 {
+        width: 100%;
+        height: 55%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image-pixam1 {
+        width: 90%;
+    }
+}
+
+/*----------------------------------------*/
+
+@media screen and (max-width:940px) {
+    .Pixam-section {
+        width: 100%;
+        height: 140vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0px;
+    }
+
+    #fitness-section {
+        width: 100%;
+        height: 110vh;
+        padding-bottom: 100px;
+    }
+
+    .Pixam-section h1 {
+        font-family: Sora;
+        font-size: 35px;
+        font-weight: normal;
+        color: #0b3f88;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+    }
+
+    .Pixam-element {
+        width: 82%;
+        height: 1000px;
+        margin-left: 17%;
+        margin-right: 17%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transform: scale(1);
+        /*transform: 0.1s ease-in-out;*/
+        transition-duration: 0.1s;
+        overflow: hidden;
+    }
+
+    .container-info-Pixam {
+        width: 100%;
+        height: 320px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+
+    .container-info-Pixam2 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-image-Pixam {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        width: 100%;
+        height: 70vh;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        background-image: linear-gradient(to bottom, #59545a , #3b373c);
+    }
+
+    .container-info-Pixam h {
+        font-family: Sora;
+        font-size: 45px;
+        font-weight: bolder;
+        color: white;
+        margin-left: 50px;
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+
+    .container-info-Pixam p {
+        font-family: Poppins;
+        font-size: 16px;
+        color: white;
+        margin-left: 50px;
+        margin-bottom: 30px;
+    }
+
+    .button-info-pixam {
+        font-family: Poppins;
+        font-size: 16px;
+        color: white;
+        margin-left: 50px;
+        background-color:#1e1c1f;
+        padding: 16px;
+        border-radius: 30px;
+        width: 140px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .button-info-pixam:hover {
+        background-color: #807a80;
+    }
+
+    .image-pixam1 {
+        width: 60%;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    }
+
+/*---------------------------------*/
+
+@media screen and (max-width:768px) {
+    .Pixam-section {
+        width: 100%;
+        height: 120vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0px;
+    }
+
+    #fitness-section {
+        width: 100%;
+        height: 95vh;
+    }
+
+    .Pixam-section h1 {
+        font-family: Sora;
+        font-size: 35px;
+        font-weight: normal;
+        color: #0b3f88;
+        margin-left: 0px;
+    }
+
+    .Pixam-element {
+        width: 82%;
+        height: 1000px;
+        margin-left: 17%;
+        margin-right: 17%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transform: scale(1);
+        transition-duration: 0.1s;
+        overflow: hidden;
+    }
+
+    .Pixam-element:hover {
+        /*transform: scaleX(0.99);*/
+        /*opacity: 0.9;*/
+    }
+
+    .container-info-Pixam {
+        width: 100%;
+        height: 280px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+
+    .container-image-Pixam {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        width: 100%;
+        height: 65vh;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        background-image: linear-gradient(to bottom, #59545a , #3b373c);
+    }
+
+    .container-info-Pixam h {
+        font-family: Sora;
+        font-size: 30px;
+        font-weight: bolder;
+        color: white;
+        margin-left: 50px;
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+
+    .container-info-Pixam p {
+        font-family: Poppins;
+        font-size: 13px;
+        color: white;
+        margin-left: 50px;
+        margin-bottom: 30px;
+    }
+
+    .button-info-pixam {
+        font-family: Poppins;
+        font-size: 16px;
+        color: white;
+        margin-left: 50px;
+        background-color:#1e1c1f;
+        padding: 16px;
+        border-radius: 30px;
+        width: 140px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .button-info-pixam:hover {
+        background-color: #807a80;
+    }
+
+    .container-info-Pixam2 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image-pixam1 {
+        width: 65%;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+/*-----------------------------*/
+
+@media screen and (max-width:480px) {
+    .Pixam-section {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0px;
+
+    }
+
+    #fitness-section {
+        width: 100%;
+        height: 100vh;
+        padding-bottom: 0px;
+    }
+
+    .Pixam-section h1 {
+        font-family: Sora;
+        font-size: 35px;
+        font-weight: normal;
+        color: #0b3f88;
+        margin-left: 0px;
+        margin-bottom: 10px;
+        padding-top: 0px;
+        margin-top: 10px;
+    }
+
+    .Pixam-element {
+        width: 100%;
+        height: 90vh;
+        margin-left: 0px;
+        margin-right: 0px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transform: scale(1);
+        transition-duration: 0.1s;
+        overflow: hidden;
+    }
+
+    .container-info-Pixam {
+        width: 100%;
+        height: 35vh;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .container-image-Pixam {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        width: 100%;
+        height: 360px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        background-image: linear-gradient(to bottom, #59545a, #3b373c);
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .container-info-Pixam h {
+        font-family: Sora;
+        font-size: 30px;
+        font-weight: bolder;
+        color: white;
+        margin-left: 50px;
+        margin-bottom: 10px;
+    }
+
+    .container-info-Pixam p {
+        font-family: Poppins;
+        font-size: 12px;
+        color: white;
+        margin-left: 50px;
+        margin-bottom: 30px;
+    }
+
+    .button-info-pixam {
+        font-family: Poppins;
+        font-size: 16px;
+        color: white;
+        background-color: #1e1c1f;
+        padding: 14px;
+        border-radius: 30px;
+        width: 230px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        font-weight: bold;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+    }
+
+    .button-info-pixam:hover {
+        background-color: #807a80;
+    }
+
+    .container-info-Pixam2 {
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .image-pixam1 {
+        width: 80%;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+/*------------------/*/
+
+#container-info-fitness {
+    background-color: #0385db;
+}
+
+#container-image-fitness {
+    background-color: #76b4fb;
+    background-image: linear-gradient(to right, #0385da , #97d3fb);
+}
+
+#button-info-fitness {
+    background-color: #005c98;
+}
+
+#button-info-fitness:hover {
+    opacity:0.9;
+    background-color: #44b5ff;
+}
+
+
